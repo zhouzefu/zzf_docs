@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress';
 
-const base_url = '/zzf-docs'; 
+const base_url = '/zzf-docs';
 
 /**
  * 站点配置
@@ -22,19 +22,33 @@ export default defineConfig({
   // 是否使用 Git 获取每个页面的最后更新时间戳。时间戳将包含在每个页面的页面数据中，可通过 useData 访问。
   lastUpdated: true,
   // 主题配置
-  themeConfig: { 
-    logo:'/images/avatar.png',
+  themeConfig: {
+    // 可以自定义此项以替换导航中的默认站点标题 (应用配置中的 title)。
+    siteTitle: 'zhouzefu@126.com',
+    // 导航栏配置
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '关于', link: '/mine/resume' },
+      { text: '项目列表', link: '/projects/project-list' },
+    ],
+    logo: '/images/avatar.png',
     footer: {
       message: '邮箱：zhouzefu@126.com | 微信：_zhouzefu | 手机号：156-0027-6210',
       copyright: `版权 © 2023-${new Date().getFullYear()} | 中国 · 宁波 | 中国 · 贵州`
-    },   
-    // 导航栏配置
-    nav: [
-      { text: 'Home', link: '/' }, 
-    ],  
-
+    },
+    // 可以定义此选项以在导航栏中展示带有图标的社交帐户链接。
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/zhouzefu/zzf_docs' },
+    ],
+    // 页脚配置
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
+    lightModeSwitchTitle: '点击切换为日间模式',
+    darkModeSwitchTitle: '点击切换为暗黑模式',
+    search: {
+      provider: 'local'
+    }
   }
 })
