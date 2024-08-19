@@ -1,72 +1,59 @@
---- 
-navbar: true
+---
+title: "简历"
+aside: false
 ---
 
-# 简历 - 周泽富 - nodejs web 应用全栈
+<style> 
 
-## 个人信息
+    .avatar{
+        width:200px;
+        margin:0 auto;
+        margin-top:50px;
+        border-radius:50%;
+    }
 
-- 🪪姓名：周泽富
-- ⚧️性别：男
-- 👻年龄：28
-- 手机：156-0027-6210
-- 微信：_zhouzefu
-- 📧邮箱：zhouzefu@126.com
-- GitHub：[https://github.com/zhouzefu](https://github.com/zhouzefu)
-- 个人博客：[http://zhouzefu.com](http://zhouzefu.com)
+    .base-info{ 
+        columns:2; 
+    }
+</style>
 
-## 教育背景
+<img class="avatar" src="../images/avatar.png"/>
+<div style="text-align:center;font-size:12px;color:#999;">Node Web 全栈</div>
 
-- 2011.09 - 2015.06，广东工业大学，计算机科学与技术，本科
+## 信息
+- 🍇 姓名：周泽富
+- 🍈 性别：男
+- 🍉 手机：156-0027-6210
+- 🍊 微信：\_zhouzefu
+- 🍋 邮箱：zhouzefu@126.com
+- 🍌 GitHub： [https://github.com/zhouzefu](https://github.com/zhouzefu)
+- 🍍 个人博客： [http://zhouzefu.top](http://zhouzefu.top)  
+
+## 本科
+
+- 2016.09 - 2019.07，[福建宁德师范学院](http://www.ndnu.edu.cn/)，机械设计制造机器自动化，本科
 
 ## 技能
 
-- 熟练掌握 JavaScript，熟悉 ES6+ 语法
-- 熟悉 Node.js，了解其底层原理
-- 熟悉 Express，Koa，Nest.js 等框架
-- 熟悉 MySQL，MongoDB，Redis 等数据库
-- 熟悉 Git，Docker，Kubernetes 等工具
-- 熟悉前端技术，如 HTML，CSS，JavaScript，React，Vue 等
-- 熟悉 Linux 操作系统，熟悉 Shell 脚本
-- 熟悉 Python，了解其语法和常用库
-- 熟悉 Java，了解其语法和常用库
-- 熟悉 C++，了解其语法和常用库
+|  角色  |                   技能                    |   备注   |
+| :----: | :---------------------------------------: | :------: |
+|  前端  | Vue、UniApp、Echarts、AntV、NuxtJS、React | 熟练使用 |
+|  桌面  |              Electron、NW.js              | 熟练使用 |
+|  后端  |   NodeJS、Koa、Express、NestJS、Fastify   | 熟练使用 |
+| 数据库 |   MySQL、MongoDB、Redis、Elasticsearch    | 熟练使用 |
+|  运维  |    Git、SVN、Nginx、Docker、linux、PM2    | 熟练使用 |
 
-## 工作经验
+## 工作
 
-- 2015.07 - 至今，广州某互联网公司，前端开发工程师
+- **2023.10 - 2024.07，宁波，工星人工业互联网，前端**
+  <br>公司内部管理系统、小程序、APP、Web 商城、外贸站的开发 
+- **2019.09 - 2023.10，贵阳，朗玛信息，前端**
+  <br>H5、小程序、音视频接入、硬件设备接入
 
-## 项目经验
+## 项目
+[📁点击查看项目](/projects/project-list)
 
-- 2016.01 - 2016.03，公司内部项目，使用 Node.js + Express + MySQL 开发，负责前端页面和接口开发
+---
 
-- 2016.04 - 2016.06，公司内部项目，使用 Node.js + Koa + MongoDB 开发，负责前端页面和接口开发
-
-- 2016.07 - 2016.09，公司内部项目，使用 Node.js + Express + MySQL 开发，负责前端页面和接口开发
-
-- 2016.10 - 2016.12，公司内部项目，使用 Node.js + Koa + MongoDB 开发，负责前端页面和接口开发
-
-- 2017.01 - 2017.03，公司内部项目，使用 Node.js + Express + MySQL 开发，负责前端页面和接口开发
-
-- 2017.04 - 2017.06，公司内部项目，使用 Node.js + Koa + MongoDB 开发，负责前端页面和接口开发
-
-- 2017.07 - 2017.09，公司内部项目，使用 Node.js + Express + MySQL 开发，负责前端页面和接口开发  
-
-- 2017.10 - 2017.12，公司内部项目，使用 Node.js + Koa + MongoDB 开发，负责前端页面和接口开发
-
-- 2018.01 - 2018.03，公司内部项目，使用 Node.js + Express + MySQL 开发，负责前端页面和接口开发
-
-- 2018.04 - 2018.06，公司内部项目，使用 Node.js + Koa + MongoDB 开发，负责前端页面和接口开发
-
-- 2018.07 - 2018.09，公司内部项目，使用 Node.js + Express + MySQL 开发，负责前端页面和接口开发
-
-- 2018.10 - 2018.12，公司内部项目，使用 Node.js + Koa + MongoDB 开发，负责前端页面和接口开发
-
-- 2019.01 - 2019.03，公司内部项目，使用 Node.js + Express + MySQL 开发，负责前端页面和接口开发
-
-- 2019.04 - 2019.06，公司内部项目，使用 Node.js + Koa + MongoDB 开发，负责前端页面和接口开发
-
-- 2019.07 - 2019.09，公司内部项目，使用 Node.js + Express + MySQL 开发，负责前端页面和接口开发
-
-- 2019.10 - 2019.12，公司内部项目，使用 Node.js + Koa + MongoDB 开发，负责前端页面和接口开发
- 
+<img src="../images/wechat.jpg" width="300"  style="margin:0 auto;"/>
+<div style="text-align:center;font-size:12px;color:#999;">微信二维码</div>
