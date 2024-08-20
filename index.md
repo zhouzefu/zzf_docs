@@ -6,7 +6,7 @@ hero:
   name: "zhouzefu@126.com"
   tagline: <div class="my-desc">Hi，我是一名 <span class="skill">NodeJS</span> 全栈应用独立开发者🧑‍💻！</div>
   image:
-    src: /images/avatar.png
+    src: '/images/avatar.png'
     alt: VitePress
   actions:
     - theme: brand
@@ -30,7 +30,8 @@ features:
     details: 安全，是昨晚一块钱的面包，和早上十块钱的牛奶
 ---
 
-<style> 
+<style>
+  
 .my-desc {
     font-size: 16px;
     animation: typing 4s steps(40) infinite; 
