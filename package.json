@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "vitepress": "^1.3.2"
+  "dependencies": {
+    "vitepress": "^1.3.3"
   }
 }

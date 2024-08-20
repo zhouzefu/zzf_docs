@@ -13,12 +13,8 @@ export default defineConfig({
   lang: 'zh-CN',
   // 是否使用 Git 获取每个页面的最后更新时间戳。时间戳将包含在每个页面的页面数据中，可通过 useData 访问。
   lastUpdated: true,
-  markdown: {
-
-  },
   // 主题配置
   themeConfig: {
-
     aside: false,
     // 可以自定义此项以替换导航中的默认站点标题 (应用配置中的 title)。
     siteTitle: 'zhouzefu@126.com',
